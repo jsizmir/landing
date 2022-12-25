@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a repository for the JS Izmir community. We are a group of JavaScript developers in Izmir, Turkey. We organize meetups, hackathons etc. every month to discuss JavaScript and related technologies.
+This is a repository for the JS Izmir community landing page. We are a group of JavaScript developers in Izmir, Turkey. We organize meetups, hackathons etc. every month to discuss JavaScript and related technologies.
 
 ## How can I join?
 
