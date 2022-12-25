@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "commit": "git-cz"
+    "commit": "git-cz --disable-emoji"
   },
   "dependencies": {
     "@astrojs/tailwind": "^2.1.3",

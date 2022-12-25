@@ -7,21 +7,21 @@ const { title } = Astro.props;
 ---
 
 <div
-  class="h-screen rounded-b-[6rem] flex justify-center flex-col items-center"
+  class="h-screen rounded-b-[6rem] flex justify-center flex-col items-center gap-7"
 >
   <img src="/coffee.svg" class="w-1/4 my-4" />
-  <h1 class="text-[4rem] font-bold text-neutral-900 mb-3">
+  <h1 class="md:text-[4rem] text-2xl font-bold text-neutral-900 text-center">
     {title}
   </h1>
-  <h3 class="text-neutral-500 text-2xl w-1/2 text-center">
+  <h3 class="text-neutral-500 md:text-2xl w-1/2 text-center">
     We organize meetups, workshops, and conferences for the Izmir JavaScript
     community.
   </h3>
 
-  <div class="flex flex-col md:flex-row gap-4 mt-8">
+  <div class="flex flex-col md:flex-row gap-4 items-center">
     <a
       href="https://twitter.com/izmirjs"
-      class="text-[#1DA1F2] font-bold py-2 px-4 transition-colors duration-200"
+      class="text-[#1DA1F2] font-bold"
       target="_blank"
     >
       Follow Twitter
@@ -30,15 +30,14 @@ const { title } = Astro.props;
     <a
       href="https://t.me/js_izmir"
       target="_blank"
-      class="text-[#0088cc] font-bold py-2 px-4 transition-colors duration-200"
-      >Join Telegram</a
+      class="text-[#0088cc] font-bold">Join Telegram</a
     >
-  </div>
 
-  <a
-    href="https://kommunity.com/js-izmir/about"
-    class="text-[#ffbc00] font-bold py-2 px-4 transition-colors duration-200"
-  >
-    Kommunity
-  </a>
+    <a
+      href="https://kommunity.com/js-izmir/about"
+      class="text-[#ffbc00] font-bold"
+    >
+      Join Kommunity
+    </a>
+  </div>
 </div>
